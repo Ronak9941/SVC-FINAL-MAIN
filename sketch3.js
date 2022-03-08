@@ -407,7 +407,7 @@ gamesound.loop()
         spawncoins()
         scorepop.visible = true
 
-        if (score1 >= 10) {
+        if (score1 >= 5) {
             gameState = "levelcleared1"
             bronzeGroup.destroyEach()
             player.visible = false
