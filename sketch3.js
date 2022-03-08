@@ -407,7 +407,7 @@ gamesound.loop()
         spawncoins()
         scorepop.visible = true
 
-        if (score1 >= 5) {
+        if (score1 >= 10) {
             gameState = "levelcleared1"
             bronzeGroup.destroyEach()
             player.visible = false
@@ -662,7 +662,7 @@ collectsound.play()
 
 
         //level 2 cleared move to level 3
-        if (score1 >= 15) {
+        if (score1 >= 20) {
             gameState = "levelcleared2"
             bronzeGroup.destroyEach()
             player.visible = false
@@ -880,7 +880,7 @@ diesound.play()
 
 
         //level 2 cleared move to level 3
-        if (score1 >= 20) {
+        if (score1 >= 30) {
             gameState = "levelcleared3"
             bronzeGroup.destroyEach()
             player.visible = false
